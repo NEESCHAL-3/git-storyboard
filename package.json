@@ -1,0 +1,31 @@
+{
+  "name": "git-storyboard",
+  "version": "1.0.0",
+  "description": "Interactive PR Storyboard & Visual Git Impact Analyzer CLI and Web Dashboard",
+  "main": "src/parser.js",
+  "bin": {
+    "git-storyboard": "bin/git-storyboard.js"
+  },
+  "scripts": {
+    "start": "node bin/git-storyboard.js",
+    "demo": "node bin/git-storyboard.js --demo",
+    "export": "node bin/git-storyboard.js --export storyboard.html",
+    "test": "node test/test.js"
+  },
+  "keywords": [
+    "git",
+    "pr",
+    "code-review",
+    "diff",
+    "storyboard",
+    "visualization",
+    "developer-tools",
+    "impact-analysis",
+    "changelog"
+  ],
+  "author": "NEESCHAL-3",
+  "license": "MIT",
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
